@@ -33,7 +33,7 @@ int main() {
 
     for(int itr = 1; itr <= max_itr ; ++itr) {
         for(int i = 0; i < n; i++) {
-            double sum = 0;
+            double sum = 0.0;
             for(int j = 0; j < n ; j++) {
                 if(j != i) {
                     sum += a[i][j] * x[j];
